@@ -1,0 +1,149 @@
+input{
+  margin-top: 2%;
+  margin-left: 5px;
+}
+
+.nav-item{
+  margin-bottom: 0;
+}
+
+.registarse{
+  background-color: blue !important;
+}
+
+.logo{
+  width: 250px;
+}
+
+.auth-face{
+  width: 95px;
+}
+
+.brand{
+  font-size: 1.5em !important;
+  color: #000 !important;
+}
+.texto{
+  color: black !important;
+}
+.menu{
+  background-color: white !important;
+}
+
+
+
+
+body{
+  overflow-x: hidden;
+}
+.pictureProfile{
+  width: 150px;
+}
+
+.pictureMessage{
+  width: 100px;
+  border-radius: 50%;
+}
+.pictureNavbar{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav-pills>a{
+  color: #007bff;
+  text-align: left;
+}
+
+.br{
+  color: white !important;
+}
+.chat{
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  right: 0;
+  margin:20px;
+  padding: 16px;
+}
+
+.messages{
+  position: relative;
+  z-index: 1;
+  border:1px solid #42a5f5;
+  height: 450px;
+  width:300px;
+  display: none;
+}
+.messages>form>input{
+  position: relative;
+  z-index: 1;
+  top: 405px;
+  right: 30px;
+  width:230px;
+
+}
+#text{
+  position: absolute;
+  top: 15px;
+  left: 140px;
+}
+.mensaje{
+  position: absolute;
+  z-index: 1;
+  top:140px;
+  right: 15px;
+  background-color:white;
+
+}
+.send{
+  position: fixed;
+  z-index: 1;
+    top:545px;
+    right: 25px;
+}
+.file {
+  position: relative;
+}
+.file label {
+  background: #42a5f5;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: .9em;
+  transition: all .4s;
+}
+.file input {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  opacity: 0.01;
+  cursor: pointer;
+}
+.file input:hover + label,
+.file input:focus + label {
+  background: #42a5f5;
+  color: white;
+}
+
+
+.alert{
+  display: none;
+}
+
+#mes{
+  position: fixed;
+  z-index: 9999;
+  text-align: left;
+  display: none;
+  overflow: scroll;
+  width: 298px;
+  height: 395px;
+}
+
+
+.chatImage{
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
